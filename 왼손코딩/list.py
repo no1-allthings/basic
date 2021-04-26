@@ -15,3 +15,12 @@ print(s)
 
 
 print(b[0:2])
+
+v = [3,5,1,2,9]
+v.sort()
+print(len(v))
+print(v.count(9))
+
+
+
+print(v)
