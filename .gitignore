@@ -73,7 +73,8 @@ fabric.properties
 
 .env
 #db.sqlite3
-../.idea/
+.idea/
 __pycache__/
 venv/
 media/
+venv
