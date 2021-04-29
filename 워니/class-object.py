@@ -6,6 +6,9 @@ class person():
     def say(self, to_name):
         print('hi '+to_name+' 내 이름은 '+ self.name + ' 야 '+str(self.age)+'살')
 
+    def introduce(self):
+        print('hi '+' 내 이름은 '+ self.name + ' 야 '+str(self.age)+'살')
+
 class police(person):
     def arrest(self, to_arrest):
         print(to_arrest+' 넌 체포되었다다')
@@ -17,6 +20,7 @@ class teacher(person):
 
 p = person('미자', 25)
 p.say('여희')
+p.introduce()
 
 h = person('지수', 28)
 h.say('철이')
