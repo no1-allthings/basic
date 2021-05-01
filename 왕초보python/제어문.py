@@ -25,5 +25,20 @@
 #         sum += cc
 #     print(sum)
 
-year = int(input('연도를 입력하세요: '))
+leap_year = None
+year = int(input('년입력: '))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 ==0:
+            leap_year = True
+        else:
+            leap_year = False
+    else:
+        leap_year = True
+else:
+    leap_year = False
 
+if leap_year:
+    print(f'{year} leap year')
+else:
+    print(f'{year} not leap')
