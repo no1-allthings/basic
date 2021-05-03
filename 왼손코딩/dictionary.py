@@ -10,9 +10,9 @@ print(cc.keys())
 del cc[10]
 print(cc)
 
-for i in bb.items():
-    print(i)
-    print(type(i))
-for a,b in bb.items():
-    print(a,b)
-    print(type(b))
+# for i in bb.items():
+#     print(i)
+#     print(type(i))
+# for a,b in bb.items():
+#     print(a,b)
+#     print(type(b))
