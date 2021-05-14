@@ -12,12 +12,18 @@
 # l2.remove('y')
 # del l2[3]
 # print(l2)
+#
+# l3 = [2,5,9,7,4,1,3,6,8]
+# print(sum(l3))
+# print(min(l3))
+# print(max(l3))
+# l3.sort(reverse=True)
+# l3.reverse()
+# print(l3)
 
-l3 = [2,5,9,7,4,1,3,6,8]
-print(sum(l3))
-print(min(l3))
-print(max(l3))
-l3.sort(reverse=True)
-l3.reverse()
-print(l3)
+l4 = []
+l4.append((5,6))
+l4.extend((5,6))
+l4.insert(0,{1,2,3})
+print(l4, type(l4))
 
