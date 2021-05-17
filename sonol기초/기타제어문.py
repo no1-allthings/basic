@@ -39,9 +39,43 @@
 #     num+=1
 #     if num == n2:
 #         break
+#
+# s = set()
+# for i in range(1,7):
+#     for j in range(1,7):
+#         s.add(i+j)
+# print(s)
 
-s = set()
-for i in range(1,7):
-    for j in range(1,7):
-        s.add(i+j)
-print(s)
+# text = input('text:')
+# for i in text:
+#     if i !=' ':
+#         print(i, end='' )
+#
+# print()
+#
+# hh = ''.join(text.strip())
+# print(hh)
+
+# for i in text:
+#     if i.isupper():
+#         print(i.lower(), end='')
+#     elif i.islower():
+#         print(i.upper(), end='')
+#     else: print(i, end='')
+#
+# l4 = ['김이동', '최김이', '이동상', '김삼삼']
+# for i in l4:
+#
+#     if i[0]=='김':
+#         print(i, end=' ')
+
+
+# num = list(map(int, input('숫자리스트" ').split()))
+# rr = num[0]
+# print(min(num))
+# for i in num:
+#     if i > rr:
+#         rr = i
+# print('최대: ',rr)
+
+
